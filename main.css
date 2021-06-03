@@ -1,8 +1,33 @@
 .main-pages {
-    padding-top: center;
+  display: flex;
+  background-color: #f6f6f6;
+}
+.main-pages .container {
+  margin-bottom: 15px;
 }
 
-.main-pages .col-md-4, .col-md-6 {
+.main-pages .col-md-3, .col-md-4 {
   border: 1px solid black;
   border-radius: 5px;
+  margin: 10px;
+  background-color: #f1f1f1;
+}  
+.main-pages .container .row {
+  display: flex;
+  justify-content: center;
+}
+.img-container {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-form {
+  padding: 3%;
+}
+.button-form-container {
+  padding: 8px;
+}
+footer {
+  padding: 1%;
 }
